@@ -1,0 +1,6 @@
+#!/bin/bash
+mkdir addTareasEquipo4.sh
+tarea="tarea"
+read -p "ingrese tarea: " tarea
+echo "$tarea" >> tareasdiarias.txt
+echo "se agrego tarea"
